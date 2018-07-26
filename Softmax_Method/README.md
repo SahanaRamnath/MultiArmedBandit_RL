@@ -12,6 +12,12 @@ N(a)=N(a)+1 (counts number of times this arm has been pulled; initialise to 0)
 
 Q(a)=Q(a)+(reward_obtained-Q(a))/N(a)
 
+
+# Usage
+
+```python softmax.py```
+
+
 # Graphs
 
 Graphs have been generated for the following different values of temperature : 0.01,0.1,1,10.

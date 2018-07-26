@@ -32,6 +32,8 @@ for eps_delta in eps_delta_pairs :
 	eps_init=eps_delta[0] # epsilon 
 	delta_init=eps_delta[1] # delta
 
+	print 'Current eps-delta pair : (',eps_init,delta_init,')'
+
 	# Starting the algo
 	l=1
 	eps_l=eps_init/4.0

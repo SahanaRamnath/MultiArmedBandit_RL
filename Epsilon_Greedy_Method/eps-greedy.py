@@ -24,6 +24,8 @@ fig2=plt.figure().add_subplot(111)
 
 for eps in range(len(epsilon)) : 
 
+	print 'Current epsilon : ',eps
+
 	Q=np.zeros((n_bandit,k)) # reward estimated
 	N=np.ones((n_bandit,k)) # number of times each arm was pulled # each arm is pulled atleast once
 	# Pull all arms once

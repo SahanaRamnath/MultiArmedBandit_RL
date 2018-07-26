@@ -12,6 +12,10 @@ N(a)=N(a)+1 (counts number of times this arm has been pulled; initialise to 0)
 
 Q(a)=Q(a)+(reward_obtained-Q(a))/N(a)
 
+# Usage
+
+```python eps-greedy.py```
+
 # Graphs
 
 Graphs have been generated for the following different values of &epsilon; : 0(purely greedy),0.01,0.1,0.2 and 1(purely explorative).

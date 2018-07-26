@@ -28,6 +28,8 @@ flag=0 # using a flag variable to plot ucb vs eps vs softmax plot only for c=2 i
 
 for c in range(len(c_list)) : 
 
+	print 'Current value of c : ',c
+
 	Q=np.zeros((n_bandit,k)) # reward estimated
 	N=np.ones((n_bandit,k)) # number of times each arm was pulled # each arm is pulled atleast once
 	

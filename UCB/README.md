@@ -13,6 +13,12 @@ N(a)=N(a)+1 (counts number of times this arm has been pulled; initialise to 0)
 
 Q(a)=Q(a)+(reward_obtained-Q(a))/N(a)
 
+
+# Usage
+
+```python ucb1.py```
+
+
 # Graphs
 
 Graphs have been generated for the following different values of c : 0.1,2,5.
