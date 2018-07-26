@@ -15,6 +15,7 @@ Q(a)=Q(a)+(reward_obtained-Q(a))/N(a)
 
 Graphs have been generated for the following different values of temperature : 0.01,0.1,1,10.
 
+<img src="https://github.com/SahanaRamnath/MultiArmedBandit_RL/blob/master/Softmax_Method/sfx_opt.png" width=50>
 
 ![sfx_reward](https://user-images.githubusercontent.com/17588365/43284417-57d7a8e6-9139-11e8-9cff-156c261a08bb.png)
 
