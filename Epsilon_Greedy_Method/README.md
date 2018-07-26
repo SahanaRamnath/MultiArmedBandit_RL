@@ -9,12 +9,13 @@ At first, all the arms are pulled once to get an initial estimate Q(a). After th
 # Update for Q(a) : 
 
 N(a)=N(a)+1 (counts number of times this arm has been pulled; initialise to 0)
+
 Q(a)=Q(a)+(reward_obtained-Q(a))/N(a)
 
 # Graphs
 
 Graphs have been generated for the following different values of &epsilon; : 0(purely greedy),0.01,0.1,0.2 and 1(purely explorative).
 
-![eps_reward](https://user-images.githubusercontent.com/17588365/43283652-187ca81a-9137-11e8-8219-8c3c89b30017.png)
+<img src="https://github.com/SahanaRamnath/MultiArmedBandit_RL/blob/master/Epsilon_Greedy_Method/eps_reward.png" width=600>
 
-![eps_opt](https://user-images.githubusercontent.com/17588365/43283654-1cef348a-9137-11e8-9a9f-169a30a4ba6d.png)
+<img src="https://github.com/SahanaRamnath/MultiArmedBandit_RL/blob/master/Epsilon_Greedy_Method/eps_opt.png" width=600>
