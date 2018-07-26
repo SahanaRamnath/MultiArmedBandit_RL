@@ -14,9 +14,9 @@ N(a)=N(a)+1 (counts number of times this arm has been pulled; initialise to 0)
 Q(a)=Q(a)+(reward_obtained-Q(a))/N(a)
 
 
-# Usage
+# Usage from Linux Terminal
 
-```python ucb1.py```
+```$ python ucb1.py```
 
 
 # Graphs
