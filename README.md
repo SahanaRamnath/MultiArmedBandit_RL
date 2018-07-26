@@ -24,7 +24,8 @@ is sampled from N (q<sub>∗</sub>(A<sub>t</sub>),1). The performance of each of
 
 The codes for each algorithm and corresponding plots generated can be found in the respective folders.
 
-The 10-arm testbed is implemented separately for each algorithm in the corresponding code file. The epsilon-greedy, softmax and UCB1 algorithms have been implemented for 1000 (time) steps each with varying values of respective parameters. The Median Elimination Algorithm has been implemented for different values of epsilon and delta (total number of time steps for MEA is determined by the value of these hyperparameters).
+The 10-arm testbed is implemented separately for each algorithm in the corresponding code file. The epsilon-greedy, softmax and UCB1 algorithms have been implemented for 1000 (time) steps each with varying values of respective parameters. The Median Elimination Algorithm has been implemented for different values of &epsilon; and &delta; (total number of time steps for MEA is determined by the value of these hyperparameters). 
+Running it for these 1000(or in the case of MEA, as calculated by values of &epsilon; and &delta;) time steps constitutes 1 run. This is repeated for 2000 independent runs, each time with a different bandit problem. The rewards obtained over all these runs is averaged to get an idea of the algorithm's average behaviour.
 
 Comparison graphs have been plotted and can be found in the UCB and MEA folders.
 
